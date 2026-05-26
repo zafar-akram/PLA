@@ -198,13 +198,49 @@ function callGroqAPI($prompt, $model = 'llama-3.3-70b-versatile') {
     return null;
 }
 
-function generateQuizQuestions($subject, $difficulty, $count = 10) {
-    $prompt = "Generate exactly {$count} {$difficulty} level multiple choice questions about {$subject}.
+function extractJsonArray($response) {
+    $response = trim($response);
+    $response = preg_replace('/^```json\s*/i', '', $response);
+    $response = preg_replace('/^```\s*/i', '', $response);
+    $response = preg_replace('/\s*```$/i', '', $response);
+    $response = trim($response);
+
+    $decoded = json_decode($response, true);
+    if (is_array($decoded)) {
+        return $decoded;
+    }
+
+    $start = strpos($response, '[');
+    $end = strrpos($response, ']');
+    if ($start !== false && $end !== false && $end > $start) {
+        $json = substr($response, $start, $end - $start + 1);
+        $decoded = json_decode($json, true);
+        if (is_array($decoded)) {
+            return $decoded;
+        }
+    }
+
+    return null;
+}
+
+function generateQuizQuestions($subject, $difficulty, $count = 10, $outline = '', $university = '', $specialFeatures = '') {
+    $contextLines = [
+        "Subject: {$subject}",
+        "Difficulty: {$difficulty}",
+        "University/Curriculum: " . ($university ?: 'Not specified'),
+        "Course outline: " . ($outline ?: 'No outline provided'),
+        "Special quiz requirements: " . ($specialFeatures ?: 'No special requirements')
+    ];
+
+    $prompt = "Generate exactly {$count} {$difficulty} level multiple choice questions using this student/course context:
+" . implode("\n", $contextLines) . "
 
 For each question, provide:
 1. A clear question text
 2. Exactly 4 answer options (labeled A, B, C, D)
 3. The correct answer (specify which option letter is correct)
+
+Make the questions match the provided outline closely. If an outline is provided, avoid unrelated generic questions.
 
 Format your response as a JSON array. Each question should be an object with this structure:
 {
@@ -218,19 +254,21 @@ Where correct_answer is the index (0-3) of the correct option.
 Return ONLY the JSON array, no additional text or explanation.";
     
     $response = callAI($prompt, '', 'gemini-2.5-flash');
-    
-    $response = trim($response);
-    $response = preg_replace('/^```json\s*/i', '', $response);
-    $response = preg_replace('/\s*```$/i', '', $response);
-    $response = trim($response);
-    
+
     try {
-        $questions = json_decode($response, true);
+        $questions = extractJsonArray($response);
         if (is_array($questions) && count($questions) > 0) {
             $validQuestions = [];
             foreach ($questions as $q) {
                 if (isset($q['question']) && isset($q['options']) && isset($q['correct_answer'])) {
                     if (is_array($q['options']) && count($q['options']) === 4) {
+                        if (is_string($q['correct_answer']) && preg_match('/^[A-D]$/i', $q['correct_answer'])) {
+                            $q['correct_answer'] = ord(strtoupper($q['correct_answer'])) - ord('A');
+                        }
+                        if (!is_numeric($q['correct_answer']) || intval($q['correct_answer']) < 0 || intval($q['correct_answer']) > 3) {
+                            continue;
+                        }
+                        $q['correct_answer'] = intval($q['correct_answer']);
                         $validQuestions[] = $q;
                     }
                 }
@@ -244,6 +282,129 @@ Return ONLY the JSON array, no additional text or explanation.";
     }
     
     return generateFallbackQuestions($subject, $difficulty, $count);
+}
+
+function formatSubjectOutlinesForPrompt($subjectOutlines) {
+    if (!is_array($subjectOutlines) || count($subjectOutlines) === 0) {
+        return '';
+    }
+
+    $lines = [];
+    foreach ($subjectOutlines as $item) {
+        $subject = trim($item['subject'] ?? '');
+        $outline = trim($item['outline'] ?? '');
+        if ($subject !== '') {
+            $lines[] = "Subject: {$subject}\nOutline: " . ($outline ?: 'No outline provided');
+        }
+    }
+
+    return implode("\n\n", $lines);
+}
+
+function generateStudyPlanSessions($university, $outline, $subjects, $specialFeatures, $startDate, $endDate, $startTime, $endTime, $offDays, $durationHours, $subjectOutlines = []) {
+    $offDayText = count($offDays) > 0 ? implode(', ', $offDays) : 'None';
+    $structuredOutlines = formatSubjectOutlinesForPrompt($subjectOutlines);
+    $outlineContext = $structuredOutlines ?: "Subjects: {$subjects}\nCourse outline: {$outline}";
+
+    $prompt = "Create a personalized study plan from this information:
+University/Curriculum: {$university}
+{$outlineContext}
+Special requirements/features: {$specialFeatures}
+Date range: {$startDate} to {$endDate}
+Available daily time window: {$startTime} to {$endTime}
+Off days: {$offDayText}
+Preferred study duration per session: {$durationHours} hour(s)
+
+Return study sessions only on allowed days, within the date range, and within the time window. Cover all subjects and outline topics in a logical order. Add revision, practice, and quiz-prep sessions when useful.
+
+Return ONLY a JSON array. Each item must use this structure:
+{
+  \"title\": \"Short session title\",
+  \"subject\": \"Subject name\",
+  \"date\": \"YYYY-MM-DD\",
+  \"start_time\": \"HH:MM\",
+  \"end_time\": \"HH:MM\",
+  \"goal\": \"Specific goal for this session\"
+}";
+
+    $response = callAI($prompt, '', 'gemini-2.5-flash');
+    $sessions = extractJsonArray($response);
+
+    if (is_array($sessions) && count($sessions) > 0) {
+        return $sessions;
+    }
+
+    return generateFallbackStudyPlanSessions($outline, $subjects, $startDate, $endDate, $startTime, $offDays, $durationHours, $subjectOutlines);
+}
+
+function generateFallbackStudyPlanSessions($outline, $subjects, $startDate, $endDate, $startTime, $offDays, $durationHours, $subjectOutlines = []) {
+    $subjectList = array_values(array_filter(array_map('trim', preg_split('/[\r\n,]+/', $subjects))));
+    if (is_array($subjectOutlines) && count($subjectOutlines) > 0) {
+        $subjectList = [];
+        $topics = [];
+        foreach ($subjectOutlines as $item) {
+            $subject = trim($item['subject'] ?? '');
+            $subjectOutline = trim($item['outline'] ?? '');
+            if ($subject === '') {
+                continue;
+            }
+            $subjectList[] = $subject;
+            $outlineItems = array_values(array_filter(array_map('trim', preg_split('/[.;\r\n]+/', $subjectOutline))));
+            if (count($outlineItems) === 0) {
+                $outlineItems = ['Review core concepts'];
+            }
+            foreach ($outlineItems as $outlineItem) {
+                $topics[] = ['subject' => $subject, 'topic' => $outlineItem];
+            }
+        }
+    }
+
+    if (!isset($topics)) {
+        $topics = array_values(array_filter(array_map('trim', preg_split('/[\r\n]+/', $outline))));
+    }
+
+    if (count($subjectList) === 0) {
+        $subjectList = ['General Study'];
+    }
+
+    if (count($topics) === 0) {
+        $topics = ['Review course outline', 'Practice important concepts', 'Revise and self-test'];
+    }
+
+    $sessions = [];
+    $current = new DateTime($startDate);
+    $end = new DateTime($endDate);
+    $topicIndex = 0;
+    $subjectIndex = 0;
+    $durationMinutes = max(30, (int) round(floatval($durationHours) * 60));
+
+    while ($current <= $end && $topicIndex < count($topics)) {
+        $dayName = strtolower($current->format('l'));
+        if (!in_array($dayName, $offDays, true)) {
+            $start = DateTime::createFromFormat('Y-m-d H:i', $current->format('Y-m-d') . ' ' . $startTime);
+            $finish = clone $start;
+            $finish->modify("+{$durationMinutes} minutes");
+            $topicData = $topics[$topicIndex];
+            $subject = is_array($topicData) ? $topicData['subject'] : $subjectList[$subjectIndex % count($subjectList)];
+            $topic = is_array($topicData) ? $topicData['topic'] : $topicData;
+
+            $sessions[] = [
+                'title' => $subject . ': ' . substr($topic, 0, 80),
+                'subject' => $subject,
+                'date' => $current->format('Y-m-d'),
+                'start_time' => $start->format('H:i'),
+                'end_time' => $finish->format('H:i'),
+                'goal' => 'Study and practice: ' . $topic
+            ];
+
+            $topicIndex++;
+            $subjectIndex++;
+        }
+
+        $current->modify('+1 day');
+    }
+
+    return $sessions;
 }
 
 function generateFallbackQuestions($subject, $difficulty, $count) {

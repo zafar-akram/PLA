@@ -1,0 +1,1275 @@
+Road Map BS (Computer Science) Session 2022-26  
+Semester 1 Semester 2 
+Course 
+Code Course Title Credit 
+Hours 
+AAF-302 Financial Accounting 3(3-0) 
+ISL-311 Translation of The Holy Quran-I 1(1-0) 
+CSI-321 Introduction to Computing 
+Applications 3(2-1) 
+ISL-321 Islamic Studies/Ethics 2(2-0) 
+ENG-322 English Composition & 
+Comprehension 
+3(3-0) 
+MTH-323 Calculus & Analytical Geometry 3(3-0) 
+ECO-408 Issues in Pakistan Economy 3(3-0) 
+ Total 18(17-1) 
+ 
+Course 
+Code Course Title Credit 
+Hours 
+CSI-302 Programming Fundamentals 4(3-1) 
+CSI-304 Discrete Structures 3(3-0) 
+PST-321 Pakistan Studies  2(2-0) 
+MTH
+324 Multi-variate Calculus 3(3-0) 
+ELE-401 Digital Logic Design 4(3-1) 
+ENG-422 Technical Writing 3(3-0) 
+ Total 19(17-2) 
+ 
+Semester 3 Semester 4 
+ 
+Course 
+Code Course Title Credit 
+Hours 
+STA-321 Introduction to Statistical Theory 3(3-0) 
+PHY-323 Basic Electronics 3(2-1) 
+SWE-401 Introduction to Software Engineering 3(3-0) 
+CSI-401 Object Oriented Programming 4(3-1) 
+CSI-405 Computer Networks 4(3-1) 
+ISL-411 Translation of The Holy Quran-II 1(1-0) 
+MTH-423 Differential Equations 3(3-0) 
+ Total  21(18-3) 
+ 
+Course 
+Code Course Title Credit 
+Hours 
+CSI-402 Data Structure and Algorithms 4(3-1) 
+CSI-406 Computer Organization and Assembly 
+Language 
+4(3-1) 
+CSI-408 Database Systems 4(3-1) 
+CSI-410 Wireless Communication 3(3-0) 
+CSI-412 Numerical Computing 3(3-0) 
+ Total 18(15-3) 
+ 
+Semester 5 
+ 
+Semester 6 
+Course 
+Code Course Title Credit 
+Hours 
+ENG-421 Communication  Skills 3(3-0) 
+MTH-424 Linear Algebra 3(3-0) 
+CSI-501 Web Design and Development 3(2-1) 
+CSI-503 Professional Practices 3(3-0) 
+CSI-505 Operating Systems 4(3-1) 
+ISL-511 Translation of The Holy Quran-III 1(1-0) 
+ Total 17(15-2) 
+ 
+Course 
+Code Course Title Credit 
+Hours 
+CSI-502 Artificial Intelligence 4(3-1) 
+CSI-504 Design and Analysis of Algorithms 3(3-0) 
+CSI-506 Theory of Automata 3(3-0) 
+CSI-508 Fundamentals of Data Mining 3(3-0) 
+CSI-512 Distributed Database Systems 3(2-1) 
+ Total 16(14-2) 
+ 
+Semester 7 Semester 8 
+Course 
+Code Course Title Credit 
+Hours 
+SOC-307 Introduction to Sociology  3(3-0) 
+CSI-601 Mobile and Application 
+Development 
+3(2-1) 
+CSI-603 Parallel and Distributed Computing 3(3-0) 
+CSI-605 Compiler Construction 3(3-0) 
+ISL-611 Translation of The Holy Quran-IV 1(1-0) 
+CSI-630A Project(Proposal) 2(0-2) 
+ Total 15(12-3) 
+ 
+Course 
+Code Course Title Credit 
+Hours 
+CSI-602 Computer Graphics 3(2-1) 
+CSI-604 Information Security 3(3-0) 
+xxx-xxx Foreign Language* 3(3-0) 
+*Department can offer any one of the following 
+languages Chinese , French, German, English, Persion, 
+Arabic 
+CSI-630B   Project(Final) 4(0-4) 
+ Total 13(8-5) 
+ 
+ 
+Grand Total= 137 
+Semester-1 
+Credit Hours: 3 
+Course Name: Introduction to Computing Applications 
+Course Structure: Lectures: 2, Labs: 1 
+Prerequisites: None (first semester course) 
+Objectives:  
+This course focuses on a breadth-first coverage of the use of computing and communication 
+technologies to solve real life problems; including computing environments, general 
+application software like word processing, visual presentation applications, tabular data 
+manipulation,  DBMS, WWW, Email management systems, Virus, Anti-Virus and Spam 
+Protection; Introduction to the basic computing hardware (main building blocks), operating 
+systems, data networks; software engineering and communication technology along with 
+social and ethical issues. An introduction of the program of study in computing for which 
+this course is being taught (CS, IT, SE etc.). The course attempts to provide every student a 
+set of productivity tools that they will be able to use for the rest of their lives. 
+Course Outline: 
+Number Systems, Binary numbers, Boolean logic, History computer system, basic machine 
+organization, Von Neumann Architecture, Algorithm definition, design, and implementation, 
+Programming paradigms and languages, Graphical programming, Overview of Software 
+Engineering and Information Communication Technology, Operating system, Compiler, 
+DBMS, Computer networks and internet, WWW, web mail applications, Computer graphics, 
+AI,  Viruses and Anti-Viruses, Use of office productivity tools, such as word processors, 
+spreadsheets, presentation applications, etc., Social, Ethical, Professional and Legal Issues, 
+and overview of the complete program of studies in computing and its structure. 
+Suggested Text Book: 
+1. Introduction to Computers by Peter Norton, 6th Edition, McGraw-Hill SiE, ISBN 0-07
+059374-4. 
+Reference Material: 
+1. Computers: Information Technology in Perspective, 9/e by Larry Long and Nancy Long, 
+Prentice Hall, 2002/ISBN: 0130929891. 
+2. An Invitation to Computer Science, Schneider and Gersting, Brooks/Cole Thomson 
+Learning, 2000. 
+3. Information System Today by Leonard Jessup, Joseph Valacich. 
+4. Computers Today by Suresh K. Basandra. 
+5. Computer Science: An overview of Computer Science, Sherer. 
+ 
+ 
+ 
+ 
+Course Name: Calculus and Analytic Geometry 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites: None 
+Objectives: To provide foundation and basic ground for calculus and analytical geometry 
+background. 
+Course Outline: Complex Numbers, DeMoivre’s Theorem and its Applications, Simple 
+Cartesian Curves, Functions and Graphs, Symmetrical Properties, Curve Tracing, Limit 
+and Continuity, Differentiation of Functions. Derivative as Slope of Tangent to a Curve 
+and as Rate of Change, Application to Tangent and Normal, Linearization, 
+Maxima/Minima and Point of Inflexion, Taylor and Maclaurin Expansions and their 
+convergence. Integral as Anti-derivative, Indefinite Integration of Simple Functions. 
+Methods of Integration: Integration by Substitution, by Parts, and by Partial Fractions, 
+Definite Integral as Limit of a Sum, Application to Area, Arc Length, Volume and 
+Surface of Revolution. 
+Reference Material: 
+1. Swokowski, Olinick and Pence, Calculus and Analytical Geometry, 6th edition, 1994, 
+Brooks/Cole Publishers. 
+2. Howard Anton, Calculus, 7th edition. 2002, John Wiley and Sons (WIE). 
+3. William E. Boyce Richard C. Diprima, Calculus, John Wiley & Sons, ISBN: 
+0471093335. 
+4. Thomas Finny, Calculus and Analytical Geometry, 10th edition, John Wiley and 
+Sons. 
+5. Erwin Kreyzig, Advanced Engineering Mathematics, 7th edition, 1993, John Wiley & 
+Sons Inc. 
+ 
+Course Name: Financial Accounting 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites: None 
+Objectives: The primary aim of Financial Accounting is to provide students with an 
+introduction to the process and function of financial reporting. Whilst a large proportion 
+of the course is aimed at understanding accounting as a process, taking a preparers‟ 
+perspective, we will also seek to develop an understanding of the importance of the role 
+of accounting in today society. 
+Course Outline: 
+Accounting and its role, Development of accounting, Accounting Theory and Conceptual 
+framework, Accounting Defined, Why study Accounting, Financial statements, Major 
+fields of Accounting, Accounting as a Career, Basic Accounting Concepts, The Entity 
+Concept, The Reliability (or Objectivity) principle, The cost Principle, The Going
+Concern Assumptions , The Stable Currency Assumptions, Ethics-the-Most Fundamental 
+Principle of Accounting, Qualitative characteristics of Financial statements, The 
+recording process, The Recognition Issue, The Valuation Issue, The Classification Issue, 
+The Recording Process, Analysis of Transaction, The Journal, The Ledger, Balancing the 
+Accounts, Preparation of Financial Statements, Preparing Trial Balance, Locating and 
+correcting errors in recording process, Preparing Profit and Loss Account and Balance 
+Sheet, The adjusting and closing entries, Need for Adjusting Entries, Recording adjusting 
+entries, Preparing adjusted trial balance, Recording closing entries, Preparing post
+closing trial balance, Preparing work-sheet, Preparation of Financial Statements, 
+Accounting for trading organization, The Purchase Function, Accounting for Purchases 
+and Sales, Return and allowances, Periodic System, Perpetual System, Worksheet, 
+Preparation of financial Statements, Departmental Accounts, Accounting 
+Systems,Developing a System, Subsidiary Journals, Subsidiary ledgers, Cash Book, 
+Petty cash book, Control Accounts, Cash and temporary investment, Nature and 
+Composition of Cash, Cash Management and Control, Maintaining Bank Account, Bank 
+Reconciliation, Short term investments, Accounting for debtors and stock, Accounting 
+Treatment of Bad Debts, Direct write-Off Method, Aging Schedule, Percentage of Sales 
+Method, Recoveries of Bad debts, Stock, Measurement of Stock Quantity, Measurement 
+of Stock Cost, Perpetual Stock System, Periodic Stock System, Accounting for property, 
+plant and equipment, Property, Plant and Equipment, Lump-sum Purchase, Subsequent 
+Expenditure, Depreciation methods, Revaluation, Review of Useful life, Intangible 
+Assets and  Amortization, Wasting Assets and Depletion 
+ 
+Reference Material: 
+1. Williams, Haka, Bettner: Financial & Managerial Accounting, Latest Edition, 
+Prentice Hall 
+2. Professor Muhammad Ammanullah Khan: Financial Accounting, Latest Edition 
+3. Frank Wood‟s: Business Accounting 1, Eleventh Edition 
+4. Meigs and Meigs, Accounting for Business Decision, 9th Edition/Latest Edition 
+ 
+ 
+Course Name:  English Composition and Comprehension 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites: None 
+Objectives: Enhance language skills and develop critical thinking. 
+Course Outline: Reading and Study skills, Note –taking on reading,  Precis  writing, 
+Critical thinking  skills, Dictionary Skills, Develop your own study reading system 
+(detective novels), enhancing vocabulary, For EAP & EFF if they are part of required 
+degree 
+(Technical writing, Report writing (formal + informal report), writing of research 
+proposal, writing of research paper, Interviews, Job interviews (face to face)and 
+Telephonic Interviews) 
+ READING: Topic sentence, identify main idea, distinguish between Fact & Opinion, 
+Skimming & Scanning, SQ3R, Notes taking techniques, Analyzing techniques in 
+paragraph structure, identify writer’s intent (cause effect, reasons, comparison & 
+contrast), making notes by using different techniques (tables, mind maps, lists, graphs 
+etc), comprehension paragraph  
+ WRITING:  Self-expression in writing. Difference between Paragraph and Essay 
+writing Descriptive, narrative, discursive, argumentative. Comprehension paragraphs 
+ ACADEMIC WRITING: How to write a proposal for research paper/term paper. 
+Difference between Summary & Review writing (Paragraphing optional). How to 
+write a research paper/term paper (emphasis on style, content, language, form, clarity, 
+consistency)            
+ REPORT WRITING: technical, progressive etc. 
+Note: Extensive reading is required for vocabulary building (Newspapers, story books, 
+daily writing, learning, movies, magazines and Detective novels). 
+Reference Material: 
+a) Essay Writing and Academic Writing 
+1. Writing. Advanced by Ron White. Oxford Supplementary Skills. Third Impression 
+1992. ISBN 0 19 435407 3 (particularly suitable for discursive, descriptive, 
+argumentative and report writing). 
+2. College Writing Skills by John Langan. Mc=Graw-Hill Higher Education. 2004. 
+3. Patterns of College Writing (4th edition) by Laurie G. Kirszner and Stephen R. 
+Mandell. St. Martin’s Press. 
+b) Presentation Skills 
+c) Reading 
+1. The Mercury Reader. A Custom Publication. Compiled by norther Illinois University.  
+General Editiors: Janice Neulib; Kathleen Shine Cain; Stephen Ruffus and Maurice 
+Scharton. (A reader which will give students exposure to the best of twentieth century 
+literature, without taxing the taste of engineering students). 
+2. Reading and Study Skills by John Langan 
+3. Study Skills by Riachard York 
+ 
+ 
+ 
+ 
+Course Name:   Issues in Pakistan Economy 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites: None 
+Objectives:  
+Course Outline:  
+Overview of Pakistan Economy  
+Development Experience, Approaches, Policies and Outcomes. Identification of Issues: 
+The era of 1950’s, 1960’s, 1970’s, 1980’s 1990’s and 2000’s. Structural Change and 
+Sources of Growth. Emergence of Economic Issues, Human Resource Development, 
+Unemployment, Poverty, Income Distribution, Debt, Deficit etc. Growth with limited 
+development in Pakistan.  
+Development Planning and Resource Mobilization  
+Agricultural Development Policies and Priorities, Major Targets of Develop Plans and 
+Emerging Issues; Neglects and Successes: Mobilization of Domestic Resources; 
+Shortages, Deficits and Role of Foreign Aid. Agricultural Vs. Industrial Development 
+Debate. Agricultural Adequacy.  
+Agriculture and Industrial Development: Emerging Issues  
+Pattern of Agricultural and Industrial Development, Land Reforms and Its Impacts, the 
+Role of Green Revolution and its Impacts: Present Status. Agricultural Price Policy and 
+Income Tax. Sectoral Terms of Trade. Industrial Development Policies and Strategies. 
+Development of Large and Small Industries. Value Added: Manufacturing Goods Vs. 
+Primary Goods Production. Agriculture Vs. Industry: Development Debate.  
+Sectoral Development, Employment Pattern and Unemployment  
+Sectoral Priorities and Development Issues. Human Resource Development and 
+Emerging Issues: Population Growth, Labor Force Participation Rate and Employment 
+Pattern, Unemployment and Underemployment, Forecasting Manpower Needs and 
+Employment. Strategies to combat unemployment. Criteria to Measure Unemployment / 
+Underemployment: Time Criterion, Productivity Criterion and New Index of 
+Unemployment: Application to Pakistan and Empirical Evidences. Good Governance, 
+Social Action Plan and its Impact. Role of Institution in Development. Social Sectors 
+development Vs. High Return Sectors: Growth trade off.  
+International Debt and Dependency  
+Concepts of Foreign Aid and Debt. Borrowing Vs. Domestic Reserve Mobilization 
+(failure). Size of Foreign Debt, Debt Saving and its Impacts. Strategies to combat with 
+High Debt: Saving Policy, Foreign Trade Promotion, Cutting non-development 
+Expenditures, Rescheduling and its Impacts. Debt Management in Pakistan and Its 
+Impacts. Debt Modeling and Future Implications.  
+Poverty and Income Distribution  
+Pattern of Income Distribution: Rural and Urban. Definitions and Approaches to Measure 
+Poverty: Income Approach, Expenditure Approach, Basic Needs Approach, Poverty of 
+Participatory Index (POPI). How to Combat Poverty; Growth Strategy, Basic Needs, 
+Labor Intensive Investment: Education / Training etc. and Social Action Plan (SAP) , its 
+Role and Critical Review, Evasion of Policies / Strategies to Combat Poverty and 
+Improving Income Distribution: Critical Evaluation. Neglect of Human Resource 
+Development. Child Labor. Factors Productivity Issues.  
+Inflation, Foreign Trade Deficit and Emerging Issues  
+Sources of Inflation in Pakistan. Policies to Combat Inflation and their Impacts. Trade 
+Performance, Instability and its Impacts. Policies to Combat Deficit and Trade Instability. 
+WTO and Its Impacts. Reforms and Further Needs. Expected Impacts of WTO and 
+Challenges. Terms of Trade Issues, Market Access and Health Related Rates 
+ 
+Reference Material: 
+1. Aslam M., Perspective on Development Planning In Pakistan, Allied Book Centre, 
+Lahore, 2001-2002.  
+2. Chaudhary M. Aslam and Ahmad Eatzaz: Globalization, WTO and Trade 
+Liberalization in Pakistan, FerozSons, Lahore (2004).  
+3. Chaudhary M. Aslam, Human Resource Development and Management in Pakistan, 
+Ferozsons, Lahore (1989).  
+4. Khan, Shahrukh R., 50 Years of Pakistan’s Economy – Traditional Topics and 
+Contemporary Concerns. Oxford Univ. Press, Karachi (2000).  
+5. Mahbool-ul-Haq Centre for Human Development (MHCHD), Poverty Profile of 
+Pakistan, (1989) Oxford University Press.  
+6. Human Development In South Asia, Annual Report.  
+7. Saeed, Khawaja Amjad, The Economy of Pakistan, Karachi: Oxford University Press, 
+2004.  
+8. Zaidi, Akbar, (1999), Issues in Pakistan Economy, Oxford Univ., Press, Karachi 
+ 
+Course Name:   Islamic Studies/ Ethics 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites: None 
+Objectives: To provide Basic information about Islamic Studies, To enhance 
+understanding of the students regarding Islamic Civilization, To improve Students skill to 
+perform prayers and other worships, To enhance the skill of the students for 
+understanding of issues related to faith and religious life. 
+Course Outline:  
+Introduction to Quranic Studies 
+1) Basic Concepts of Quran  
+2) History of Quran 
+3) Uloom-ul -Quran 
+Study of Selected Text of Holly Quran 
+1) Verses of Surah Al-Baqra Related to Faith(Verse No-284-286) 
+2)  Verses of Surah Al-Hujrat Related to Adab Al-Nabi 
+ (Verse No-1-18) 
+3) Verses of Surah Al-Mumanoon Related to Characteristics of faithful (Verse No-1
+11) 
+4) Verses of Surah al-Furqan Related to Social Ethics (Verse No.63-77) 
+5) Verses of Surah Al-Inam Related to Ihkam(Verse No-152-154) 
+Study of Selected Text of Holly Quran 
+1) Verses of Surah Al-Ihzab Related to Adab al-Nabi (Verse No.6,21,40,56,57,58.) 
+2)  Verses of Surah Al-Hashar (18,19,20) Related to thinking, Day of Judgment  
+3) Verses of Surah Al-Saf Related to Tafakar,Tadabar  (Verse No-1,14) 
+Seerat of Holy Prophet  (S.A.W) I 
+1) Life of Muhammad Bin Abdullah ( Before Prophet Hood) 
+2) Life of Holy Prophet (S.A.W) in Makkah 
+3) Important Lessons Derived from the life of Holy Prophet in Makkah 
+Seerat of Holy Prophet  (S.A.W) II 
+1) Life of Holy Prophet (S.A.W) in Madina 
+2) Important Events of Life Holy Prophet in  Madina 
+3) Important Lessons Derived from the life of Holy Prophet in Madina 
+Introduction To Sunnah 
+1) Basic Concepts of Hadith  
+2) History of Hadith 
+3) Kinds of Hadith 
+4) Uloom –ul-Hadith 
+5) Sunnah & Hadith  
+6) Legal Position of Sunnah 
+Selected Study from Text of Hadith 
+Introduction To Islamic Law & Jurisprudence  
+1) Basic Concepts of Islamic Law & Jurisprudence 
+2) History & Importance of Islamic Law & Jurisprudence 
+3) Sources of Islamic Law & Jurisprudence 
+4) Nature of Differences in Islamic Law 
+5) Islam and Sectarianism 
+Islamic Culture & Civilization 
+1) Basic Concepts of Islamic Culture & Civilization 
+2) Historical Development of Islamic Culture & Civilization 
+3) Characteristics of Islamic Culture & Civilization  
+4) Islamic Culture & Civilization and Contemporary Issues 
+Islam & Science 
+1) Basic Concepts of Islam & Science 
+2) Contributions of Muslims in the Development of Science 
+3) Quranic & Science 
+Islamic Economic System 
+1) Basic Concepts of Islamic Economic System 
+2) 
+3) 
+4) 
+Means of Distribution of wealth in Islamic Economics 
+Islamic Concept of Riba 
+Islamic Ways of Trade & Commerce 
+Political System of Islam 
+1) 
+2) 
+3) 
+Basic Concepts of Islamic Political System  
+Islamic Concept of Sovereignty  
+Basic Institutions of Govt. in Islam 
+Islamic History 
+1) 
+2) 
+3) 
+Period of Khlaft-E-Rashida 
+Period of Ummayyads 
+Period of Abbasids 
+Social System of Islam 
+1) 
+2) 
+Basic Concepts of Social System of Islam 
+Elements of Family 
+Ethical Values of Islam 
+Reference Material: 
+1) 
+2)  
+3) 
+1) 
+5) 
+Hameed ullah Muhammad, “Emergence of Islam” , IRI, Islamabad   
+Hameed ullah Muhammad, “Muslim Conduct of State” 
+Hameed ullah Muhammad, ‘Introduction to Islam 
+Mulana Muhammad Yousaf Islahi,” 
+Hussain Hamid Hassan, “An Introduction to the Study of Islamic Law” leaf 
+Publication Islamabad, Pakistan. 
+6) 
+Dr. Muhammad Zia-ul-Haq, “Introduction to Al Sharia Al Islamia” Allama       
+Iqbal Open University, Islamabad (2001) 
+Ahmad Hasan, “Principles of Islamic Jurisprudence” Islamic Research    
+Institute, International Islamic University, Islamabad (1993) 
+7) 
+8) 
+9) 
+Mir Waliullah, “Muslim Jrisprudence and the Quranic Law of Crimes”       
+Islamic Book Service (1982) 
+H.S. Bhatia, “Studies in Islamic Law, Religion and Society” Deep & Deep       
+Publications New Delhi (1989) 
+.  
+ 
+Semester-2 
+Course Name:   Programming Fundamentals 
+Course Structure: Lectures: 3, Labs: 1 Credit Hours: 4 
+Prerequisites: None 
+Objectives: The course is designed to familiarize students with the basic structured 
+programming skills. It emphasizes upon problem analysis, algorithm designing, and 
+program development and testing. 
+Course Outline:  
+Overview of computers and programming. Overview of language for e.g. C language C. 
+Basics of structured and Modular programming. Basic Algorithms and problem solving, 
+development of basic algorithms, analyzing problem, designing solution, testing designed 
+solution. Fundamental programming constructs, translation of algorithms to programs, 
+data types, control structures, functions, arrays, records, files, testing programs 
+Reference Material: 
+1. Problem Solving and Program Design in C / 6E Hanly & Koffman  Addison-Wesley  |  
+Published: 02/06/2009 ISBN-10: 0321535421  |  ISBN-13: 9780321535429 
+2. C How to Program, 5/E  (Harvey & Paul) Deitel & Deitel, ISBN-10: 0132404168 
+ISBN-13: 9780132404167 Publisher: Prentice Hall Copyright: 2007 
+ 
+Course Name:   Digital Logic and Design 
+Course Structure: Lectures: 3, Labs: 1 Credit Hours: 4 
+Prerequisites: Discrete Structures, Introduction to Computing 
+Objectives: This course introduces the concept of digital logic, gates and the digital 
+circuits. Further, it focuses on the design and analysis combinational and sequential 
+circuits. It also serves to familiarize the student with the logic design of basic computer 
+hardware components. 
+Course Outline:  
+Overview of Binary Numbers, Boolean Algebra, switching algebra, and logic gates, 
+Karnaugh Map and Quin-McCluskey methods,  simplification of Boolean functions, 
+Combinational Design; two level NAND/NOR implementation, Tabular Minimization, 
+Combinational Logic Design: adders, subtracters, code converters, parity checkers, 
+multilevel NAND/NOR/XOR circuits, MSI Components, design and use of encoders, 
+decoders, multiplexers, BCD adders, and comparators, Latches and flip-flops, 
+Synchronous sequential circuit design and analysis, Registers, synchronous and 
+asynchronous counters, and memories, Control Logic Design, Wired logic and 
+characteristics of logic gate families, ROMs, PLDs, and PLAs, State Reduction and good 
+State Variable Assignments, Algorithmic State Machine (ASM) Charts, Asynchronous 
+circuits, Memory systems, Functional organization, Multiprocessor and alternative 
+architectures: Introduction to SIMD, MIMD, VLIW, EPIC; systolic architecture; 
+interconnection networks; shared memory systems; cache coherence; memory models 
+and memory consistency, Performance enhancements, Contemporary architectures 
+Reference Material: 
+1. Digital Design, 2nd Ed., M. Morris Mano, Prentice Hall, 1991. 
+2. Practical Digital Logic Design and Testing, P K Lala, Prentice Hall, 1996 
+ 
+Course Name:   Multivariate Calculus 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites: Calculus and Analytical Geometry 
+Objectives: The goals are to develop the skills to have ground knowledge of multivariate 
+calculus and appreciation for their further computer science courses 
+Course Outline:  
+Functions of Several Variables and Partial Differentiation. Multiple Integrals, Line and 
+Surface Integrals. Green’s and Stoke’s Theorem. Fourier Series: periodic functions, 
+Functions of any period P-2L, Even & odd functions, Half Range expansions, Fourier 
+Transform. Laplace Transform, Z-Transform. 
+Reference Material: 
+1. James Stewart, Multivariable Calculus, 6th edition, 2007, Cengage Learning 
+publishers. 
+2. Swokowski, Olinick and Pence, Calculus and Analytical Geometry, 6th edition, 1994, 
+Thomson Learning EMEA, Ltd. 
+3. Bernard Kolman, William F. Trench, Elementary Multivariable Calculus, 1971, 
+Academic Press. 
+4. Howard Anton, Albert Herr, Multivariable Calculus, 5th edition, 1995, John Wiley 
+ 
+Course Name:   Discrete Structures 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites:  
+Objectives:  
+Introduces the foundations of discrete mathematics as they apply to  computer Science, 
+focusing on providing a solid theoretical foundation for further work. Further, this course 
+aims to develop understanding and appreciation of the finite nature inherent in most 
+Computer Science problems and structures through study of combinatorial reasoning, 
+abstract algebra, iterative procedures, predicate calculus, tree and graph structures. In this 
+course more emphasis shall be given to statistical and probabilistic formulation with 
+respect to computing aspects 
+Course Outline:  
+Introduction to logic and proofs: Direct proofs; proof by contradiction, Sets, 
+Combinatorics, Sequences, Formal logic, Prepositional and predicate calculus, Methods 
+of Proof, Mathematical Induction and Recursion, loop invariants, Relations and 
+functions, Pigeonwhole principle, Trees and Graphs, Elementary number theory, 
+Optimization and matching. Fundamental structures: Functions; relations (more 
+specifically recursions); pigeonhole principle; cardinality and countability, probabilistic 
+methods 
+Reference Material: 
+1. Kenneth H. Rosen, Discrete Mathematics and Its Applications, 6TH edition, 2006, 
+Mcgraw Hill Book Co. 
+2. Richard Johnsonbaugh, Discrete Mathematics, 7TH edition, 2008, Prentice Hall 
+Publishers. 
+3. Kolman, Busby & Ross, Discrete Mathematical Structures, 4th edition, 2000, 
+Prentice-Hall Publishers. 
+4. Ralph P. Grimaldi, Discrete and Combinatorial Mathematics: An Applied 
+Introduction, Addison-Wesley Pub. Co., 1985 
+ 
+ 
+ 
+Course Name:   Pakistan Studies 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites:  
+Objectives:  
+Develop vision of historical perspective, government, politics, contemporary Pakistan, 
+ideological background of Pakistan. • Study the process of governance, national 
+development, issues arising in the modern age and posing challenges to Pakistan. 
+Course Outline:  
+1. Historical Perspective 
+a. Ideological rationale with special reference to Sir Syed Ahmed Khan, Allama 
+Muhammad Iqbal and Quaid-e-Azam Muhammad Ali Jinnah.  
+b. Factors leading to Muslim separatism 
+c. People and Land 
+i. Indus Civilization 
+ii. Muslim advent 
+iii. Location and geo-physical features. 
+2. Government and Politics in Pakistan 
+Political and constitutional phases: 
+a. 1947-58 
+b. 1958-71 
+c. 1971-77 
+d. 1977-88 
+e. 1988-99 
+f. 1999 onward 
+3. Contemporary Pakistan 
+a. Economic institutions and issues 
+b. Society and social structure 
+c. Ethnicity 
+d. Foreign policy of Pakistan and challenges 
+e. Futuristic outlook of Pakistan 
+Reference Material: 
+1. Burki, Shahid Javed. State & Society in Pakistan, The Macmillan Press Ltd 1980. 
+2. Akbar, S. Zaidi. Issue in Pakistan’s Economy. Karachi: Oxford University Press, 
+2000. 
+3. S.M. Burke and Lawrence Ziring. Pakistan’s Foreign policy: An Historical analysis. 
+Karachi: Oxford University Press, 1993. 
+4. Mehmood, Safdar. Pakistan Political Roots & Development. Lahore, 1994. 
+5. Wilcox, Wayne.The Emergence of Bangladesh., Washington: American Enterprise, 
+Institute of Public Policy Research, 1972. 
+6. Mehmood, Safdar. Pakistan Kayyun Toota, Lahore: Idara-e-Saqafat-e-Islamia, Club 
+Road, 
+ 
+ 
+ 
+Course Name:   Technical Writing 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites:  
+Objectives:  
+Course Outline:  
+Characteristics of Academic, Public, Work and Electronic Communities. Myths and 
+Realities about Writing. Effective Writing: Discovering and Planning; Purpose, Thesis, 
+and Audience; Drafting: Drafting Collaboratively, Drafting in Digital Environments; 
+Revising, Editing, and Proofreading. 
+Paragraphs: Unfocused Paragraphs, Incoherent Paragraphs, Poorly Developed 
+Paragraphs, Special-Purpose Paragraphs. Unclear, Clear and Emphatic Sentences. 
+Reasoning Critically. Reading Critically. Arguing Persuasively & Logically. Designing 
+Documents. Writing in Online Communities.  
+Presentation skills: Speaking Effectively. Interviews , telephonic, face to face, different 
+kinds of interviews. Techniques and strategies for making and delivering a presentation, 
+use of AV aids 
+Academic Writing for Social and Natural Sciences: Goals of Writing, Audiences, Writing 
+Tasks, Types of Writing: Abstract, Informative Report, Lab Report, Research Report, 
+Project Reports, Technical report, short and long report, progressive report. 
+Business letters of different kinds, good news, bad news, invitations, adjustments, 
+resignation, letter for joining. Cover letter. CV and Resume with different types. 
+Public Writing: Goals of Public Writing, Public Audiences, Public Writing Tasks, Types 
+of Public Writing, Public Flyer, Letter to the Editor.  
+Researching and Writing: Types of Research Writing, Developing a Research Question, 
+proposal for a research, Developing a Preliminary Thesis, Creating a Research File and a 
+Timeline, Reading and Note taking, Summarizing, Paraphrasing, and Synthesizing. 
+Writing a Position Paper 
+Reference Material: 
+1. Writer's Companion – The Longman by Chris M. Anson, Robert A. Schwegler and 
+Marcia F. Muth, Pearson Longman, 4th Edition 2007. ISBN10: 0-20556-252-3 
+2. Technical English: Writing, Reading, and Speaking by Pickett and Laster. 8th Edition 
+3. The Technical Writer’s Companion by Alred, Gerald, Charles T. Brusaw and Walter 
+E. Oliu, 3rd Edition. ISBN 0-312-25978-6. 
+4. Mecnakshi Raman & Sangeeta Technical Communication 
+ 
+ 
+Semester-3 
+ 
+ 
+ 
+Course Name: Object Oriented Programming 
+ 
+Course Structure: Lectures: 3, Labs: 1 Credit Hours: 4 
+ 
+Prerequisites: Programming Fundamentals 
+ 
+Objectives: The course aims to focus on object-oriented concepts, analysis and software 
+development. 
+ 
+Course Outline:  
+Evolution of Object Oriented (OO) programming, OO concepts and principles, problem 
+solving in OO paradigm, OO programme design process, classes, methods, objects and 
+encapsulation; constructors and destructors, operator and function overloading, virtual 
+functions, derived classes, inheritance and polymorphism. I/O and file processing, 
+exception handling 
+ 
+Reference Material: 
+1. C++ How to Program, 6/E  (Harvey & Paul) Deitel & Deitel ISBN-10: 0136152503 
+ISBN-13: 9780136152507 Publisher: Prentice Hall  
+2. Java How to Program, 7/E  
+(Harvey & Paul) Deitel & Deitel ISBN-10: 0132222205 ISBN-13: 9780132222204 
+Publisher: Prentice Hall 
+ 
+ 
+Course Name: Computer Networks 
+Course Structure: Lectures: 3, Labs: 1 Credit Hours: 4 
+Prerequisites: None 
+Objectives: To introduce students to the concept of computer communication. Analogue 
+& digital transmission. Network Layers, Network models (OSI, TCP/IP) and Protocol 
+Standards. Emphasis is given on the understanding of modern network concepts. 
+Course Outline: Analogue and digital Transmission, Noise, Media, Encoding, 
+Asynchronous and Synchronous transmission, Protocol design issues. Network system 
+architectures (OSI, TCP/IP), Error Control, Flow Control, Data Link Protocols (HDLC, 
+PPP). Local Area Networks and MAC Layer protocols (Ethernet, Token ring), 
+Multiplexing, Switched and IP Networks, Inter-networking, Routing, Bridging, Transport 
+layer protocols TCP/IP, UDP. Network security issues. Programming exercises, labs or 
+projects involving implementation of protocols at different layers. 
+Reference Material: 
+1. Introduction to Computer Networks /4, A. S. Tanenbaum, Prentice Hall 2003 
+2. Computer Networks and Internets, 5/E, 2008 
+Douglas E. Comer, Purdue University ISBN-10: 0136061273 ISBN-13: 
+9780136061274 Publisher: Prentice Hall 
+3. Data and Computer Communications By William Stallings Published by Macmillan 
+Pub. Co., 8th Edition 2006 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course Name: Differential Equations 
+Course Structure: Lectures: 3 / Labs: 0 Credit Hours: 3 
+Prerequisites: Calculus and Analytical Geometry 
+Objectives: Develop fundamental skills of solving ordinary differential equations, and 
+developing differential equations for real-world problems. 
+Course Outline: Ordinary Differential Equations of the First Order: Geometrical 
+Considerations, Isoclines, Separable Equations, Equations Reducible to Separable Form, 
+Exact Differential Equations, Integrating Factors, Linear First-Order Differential 
+Equations, Variation of Parameters. Ordinary Linear Differential Equations; 
+Homogeneous Linear Equations of the Second Order, Homogeneous Second-Order 
+Equations with Constant Coefficients, General Solution, Real Roots, Complex Roots, 
+Double Root of the Characteristic Equation, Differential Operators, Cauchy Equation, 
+Homogeneous Linear Equations of Arbitrary Order, Homogeneous Linear Equations of 
+Arbitrary Order with Constant Coefficients, Non-homogeneous Linear Equations. 
+Modelling of Electrical Circuits. Systems of Differential Equations. Series Solutions of 
+Differential Equations. Partial Differential Equations: Method of Separation of variables, 
+wave, Heat & Laplace equations and their solutions by Fourier series method. 
+Reference Material: 
+1. Michael Greenberg, Advanced Engineering Mathematics, 1996, Prentice Hall 
+publishers. 
+2. Erwin Kreyzig, Advanced Engineering Mathematics, 7th edition, 1993, John Wiley & Sons Inc. 
+3. Zill, Prindle, Weber and Schmidt, A First Course in Differential Equations, 1996, 
+Brooks/Cole Publishing,  
+4. Dennis G. Zill, Michael R. Cullen. Differential Equations with Boundary-Value 
+Problems, 1996, Brooks/Cole Publishing,  
+5. C. H .Edwards, David E. Penney, Elementary Differential Equations With 
+Applications, 1993, Prentice Hall. 
+ 
+ 
+Course Name: Basic Electronics 
+Course Structure: Lectures: 2 / Labs: 1 Credit Hours: 3 
+Prerequisites: Electric Circuits 
+Objectives: Introduction of Electronics 
+Course Outline: 
+Fundamentals of Semiconductor physics: Band theory, semiconductors (intrinsic and 
+extrinsic), pn junction, pn junctions as a rectifier, clipper and clamper circuits, zener diode 
+and voltage regulator, LED and LCD etc., Transistors: Bipolar Junction transistors, BJT 
+biasing circuits, Q-point, BJT as a switch, BJT amplifiers, classes of amplifiers, power 
+amplifiers, Metal oxide transistors, nMOS, pMOS and CMOS inverters circuits. 
+Introduction to A/D and D/A conversion circuits 
+Reference Material: 
+1. University Physics by Freedman and Young (10 th and higher editions). 
+2. College Physics by Resnick, Halliday and Krane (6th and higher edition) 
+ 
+Course Name: Introduction to Statistical Theory 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites: None 
+Objectives: To introduce the concepts of data analysis, presentation, counting 
+techniques, probability and decision making. 
+Course Outline: Introduction to Statistics, Descriptive Statistics, Statistics in decision 
+making, Graphical representation of Data Stem-and Lead plot, Box-Cox plots, measures 
+of central tendencies and dispersion, moments of frequency distribution; Counting 
+techniques, introduction to probability, sample space, events, laws of probability, 
+Conditional probability and Baye’s theorem with application to random variable 
+(Discrete and continuous) Binomial, Poisson, Geometric, Negative Binomial 
+Distributions; Exponential Gamma and Normal distributions. Regression and Correlation, 
+Estimation and testing of hypotheses, use of elementary statistical packages for 
+explanatory Data analysis.  
+Reference Material: 
+1. Ronald Walpole, Myers, Myers, Ye, “Probability & Statistics for Engineers & 
+Scientists”, 8th edition, 2008, Prentice Hall Publisher. 
+2. Lay L. Devore, Probability and Statistics for Engineering and the Sciences, 2003, 
+Duxbury Publishers. 
+3. G. Cowan, Statistical Data Analysis, 1998, Clarendon, Oxford. 
+Course Name: Introduction to Software Engineering 
+Credit Hours: 3 
+Course Structure: Lectures: 3, Labs: 0 
+Prerequisites: Object Oriented Paradigm/Programming 
+Objectives: To study various software development models and phases of software 
+development life cycle. The concepts of project management, change control, process 
+management, software development and testing are introduced through hands-on Team 
+Projects. 
+Course Outline: Introduction to Computer-based System Engineering; Project 
+Management; Software Specification; Requirements Engineering, System Modelling; 
+Requirements Specifications; Software Prototyping; Software Design: Architectural 
+Design, Object-Oriented Design, UML modelling, Function-Oriented Design, User 
+Interface Design; Quality Assurance; Processes & Configuration Management; 
+Introduction to advanced issues: Reusability, Patterns; Assignments and projects on 
+various stages and deliverables of SDLC. 
+Reference Material:  
+1. Software Engineering 8E by Sommerville Addison Wesley, 2006  
+2. Software Engineering: A Practitioner's Approach /7E, Roger Pressman, McGraw-Hill, 
+2009 
+ 
+Semester-4 
+Course Name:   Data Structures and Algorithms 
+Course Structure: Lectures: 3, Labs: 1 Credit Hours: 4 
+Prerequisites: Object Oriented Paradigms 
+Objectives: The course is designed to teach students structures and schemes, which 
+allow them to write programs to efficiently manipulate, store, and retrieve data. Students 
+are exposed to the concepts of time and space complexity of computer programs 
+Course Outline:  
+Introduction to data structures; Arrays, Stacks, Queues, Priority Queues, Linked Lists, 
+Trees, and Graphs. Recursion, sorting and searching algorithms, Hashing, Storage and 
+retrieval properties and techniques for the various data structures. Algorithm Complexity, 
+Polynomial and Intractable Algorithms, Classes of Efficient Algorithms, Divide and 
+Conquer, Dynamic, Greedy 
+Reference Material: 
+1. Data Abstraction and Problem Solving with C++, 2nd ed, Frank M. Carrano, Paul 
+Helman, Robert Veroff, Addison-Wesley, 1998. 
+2. Data Structures and Algorithms (SAMS teach yourself), Lafore, Sams Publishing, 
+1999. 
+3. Fundamentals of Data Structures in C++, Horowitz, Sahni, and Mehta, Computer 
+Science Press, 1995. 
+4. Data Structures in JAVA, Standish, Addison Wesley, 2000 
+ 
+Course Name: Computer Organization and Assembly Language 
+Course Structure: Lectures: 3, Labs: 1 Credit Hours: 4 
+Prerequisites: Digital Logic Design 
+Objectives: The main objective of this course is to introduce the organization of computer 
+systems and usage of assembly language for optimization and control. Emphasis should be 
+given to expose the low-level logic employed for problem solving while using assembly 
+language as a tool. At the end of the course the students should be capable of writing 
+moderately complex assembly language subroutines and interfacing them to any high 
+level language. 
+Course Outline: Microprocessor Bus Structure: Addressing, Data and Control, Memory 
+Organization and Structure (Segmented and Linear Models), Introduction to Registers and 
+Flags, Data Movement, Arithmetic and Logic, Programme Control, Subroutines, Stack 
+and its operation, Peripheral Control Interrupts, Interfacing with high level languages, 
+Real-time application. Objectives and Perspectives of Assembly Language, Addressing 
+Modes, Introduction to the Assembler and Debugger, Manipulate and translate machine 
+and assembly code, Describe actions inside the processing chip, Discuss operations 
+performed by an instruction set, Write a fully documented program, Using an assembler of 
+choice. 
+Reference Material: 
+1. Stallings, "Computer Organization & Architecture", 7th ed, Prentice HALL, 2006. 
+2. Irvine, Assembly Language for Intel-based Computers, 5th ed, Prentice Hall, 2007. 
+3. Computer Organization and Design, The Hardware/Software Interface, 4th ed, by 
+David A. Patterson and John L. Hennessy, 2008. Elsevier Publishers. 
+ 
+ 
+ 
+ 
+Course Name: Database Systems 
+Course Structure: Lectures: 3, Labs: 1 Credit Hours: 4  
+Prerequisites: Data Structures and Algorithms 
+Objectives: The course aims to introduce basic database concepts, different data models, 
+data storage and retrieval techniques and database design techniques. The course primarily 
+focuses on relational data model and DBMS concepts. 
+Course Outline: Basic database concepts; Entity Relationship modelling, Relational data 
+model and algebra, Structured Query language; RDBMS; Database design, functional 
+dependencies and normal forms; Transaction processing and optimization concepts; 
+concurrency control and recovery techniques; Database security and authorization.  Small 
+Group Project implementing a database. Physical database design: Storage and file 
+structure; indexed files; b-trees; files with dense index; files with variable length records; 
+database efficiency and tuning.  
+Reference Material: 
+1. Database Systems 8E, C.J.Date, Addison Wesley Pub. Co. (2004). 
+2. Database Systems: A Practical Approach to Design, Implementation and Management 
+5E, R.Connolly and P.Begg, Addison-Wesley Pub. Co (2009). 
+3. Fundamentals of Database Systems, 5/E, Elmasri and Navathe, Addison-Wesley, ISBN: 
+0-201-74153-9. 
+ 
+ 
+ 
+Course Name: Wireless Communication 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites:  
+Objectives:  
+Course Outline:  
+This course covers fundamental techniques in design and operation of first, second, and 
+third generation wireless networks: cellular systems, medium access techniques, radio 
+propagation models, error control techniques, handoff, power control, common air 
+protocols (AMPS, IS-95, IS-136, GSM, GPRS, EDGE, WCDMA, cdma2000, etc), radio 
+resource and network management. As an example for the third generation air interfaces, 
+WCDMA is discussed in detail since it is expected to have a large impact on future 
+wireless networks. This course is intended for graduate students who have some 
+background on computer networks. 
+Reference Material:  
+1. W. Stallings, “Wireless Communications and Networks”, Prentice Hall, 2002. 
+2. T.S. Rappaport, “Wireless Communications: Principles & Practice”, Second Edition, 
+Prentice Hall, 2002. 
+3. J. Schiller, “Mobile Communications”, Addison Wesley, 2000. 
+4. V.K. Garg, “IS-95 CDMA and cdma 2000”, Prentice Hall PTR, 2000. 
+5. J.P. Castro, “The UMTS Network and Radio Access Technology - Air Interface 
+Techniques for Future Mobile Systems”, Wiley, 2001. 
+6. H. Holma and A. Toskala, “WCDMA for UMTS Radio Access for Third Generation 
+Mobile Communications”, John Wiley & Sons, 2001 
+ 
+ 
+Course Name: Numerical Computing 
+Course Structure: Lectures: 3 / Labs: 0 Credit Hours: 3 
+Prerequisites:  Calculus and Analytical Geometry 
+Objectives: On completion of this unit, students will be able to demonstrate programming 
+proficiency using structured programming techniques to implement numerical methods for 
+solutions using computer-based programming  techniques .using Matlab for all methods. The 
+course must serve the purpose of scientific software development for science and engineering 
+problems. 
+Course Outline: The concepts of efficiency, reliability and accuracy of a method. 
+Minimising computational errors. Theory of Differences, Difference Operators, Difference 
+Tables, Forward Differences, Backward Differences and Central Differences. Mathematical 
+Preliminaries, Solution of Equations in one variable, Interpolation and Polynomial 
+Approximation, Numerical Differentiation and Numerical Integration, Initial Value Problems 
+for Ordinary Differential Equations, Direct Methods for Solving Linear Systems, Iterative 
+Techniques in Matrix Algebra, Solution of non-linear equations.  
+Reference Material: 
+1. Numerical Methods in Scientific Computing Germund Dahlquist and Åke Björck 
+2. Numerical Methods for Scientific Computing : J.H. Heinbockel   
+3. Numerical Analysis:  I.A. Khubaza 
+4. Numerical Analysis and Programming : Shan S Kuo 
+5. Numerical Analysis by Berden Fairs 
+6. Numerical Analysis by Gerald 
+ 
+ 
+ 
+ 
+Semester-5 
+ 
+ 
+ 
+ 
+Course Name: Professional Practices                      
+Course Structure: Lectures: 3 / Labs: 0 Credit Hours: 3 
+Prerequisites: None 
+Objectives: A Computing graduate as professional has some responsibilities with respect 
+to the society. This course develops student understanding about historical, social, 
+economic, ethical, and professional issues related to the discipline of Computing. It 
+identifies key sources for information and opinion about professionalism and ethics. 
+Students analyze, evaluate, and assess ethical and professional computing case studies. 
+Course Outline: Introduction, Computing Ethics, Philosophy of Ethics, Ethics and the 
+Internet. Intellectual Copy Right, Accountability and Auditing, Social Application of 
+Ethics. 
+Resources: 
+1. Deborah G. Johnson, “Computer Ethics”, Pearson Education (2001) 3rd edition. 
+2. Professional Issues in Software Engineering, M.F. Bott et. al. 
+ 
+ 
+Course Name: Operating Systems 
+Course Structure: Lectures: 3, Labs: 1  Credit Hours: 4 
+Prerequisites: None  
+Objectives: To help students gain a general understanding of the principles and concepts 
+governing the functions of operating systems and acquaint students with the layered 
+approach that makes design, implementation and operation of the complex OS possible. 
+Course Outline: History and Goals, Evolution of multi-user systems, Process and CPU 
+management, Multithreading, Kernel and User Modes, Protection, Problems of cooperative 
+processes, Synchronization, Deadlocks, Memory management and virtual memory, 
+Relocation, External Fragmentation, Paging and Demand Paging, Secondary storage, 
+Security and Protection, File systems, I/O systems, Introduction to distributed operating 
+systems. Scheduling and dispatch, Introduction to concurrency. Lab assignments involving 
+different single and multithreaded OS algorithms. 
+Reference Material: 
+1. Applied Operating Systems Concepts, 7th Edition, Silberschatz A., Peterson, J.L., & 
+Galvin P.C. 2004. 
+2. Modern Operating Systems, 3rd Edition, Tanenmaum A.S., 2008. 
+ 
+ 
+Course Name: Communication Skills 
+Course Structure: Lectures: 3, Labs: 0  Credit Hours: 3 
+Prerequisites: None  
+Objectives: Enable the students to meet their real life communication needs.  
+Course Outline: 
+The seven C’s of communication, Levels of communication, The process of 
+communication, Types of communication (in detail), Flow of communication, 
+Communication Networks in an organization, Formal Network, Informal Network, 
+Principals of effective communication and barriers to communication, Basic Skills (Writing, 
+Listening, Speaking, Reading..). 
+LISTENING SKILLS: What is listening? Types of listening, Objectives & Barriers to 
+listening, Note taking tips. Improved by AV aids used & recommended by the teacher. 
+ORAL/SPEAKING SKILLS: 
+PRESENTATION SKILLS: Personality development (emphasis on content, style and 
+pronunciation). Successful persuasive public speaking, Importance of oral communication, 
+Effective Presentative strategies, organizing & preparing outline, visual aids. 
+INTERVIEWS: Types of interviews, tips for successful interview. 
+WRITING: Paragraph, Essay with different types, Letters & its types, memo writing, 
+Reports, Proposal, Research paper, Term paper, Thesis, Review writing, minutes of 
+meetings. 
+READING SKILLS: Definition & Importance of reading, levels & requirements, how to 
+improve reading skills & study skills as below. 
+STUDY SKILLS: Skimming and Scanning, Intensive and extensive, Speed reading, 
+Summary, main idea and critical summary. 
+  
+Reference Material: 
+a) Grammar 
+1. Practical English Grammar by A.J. Thomson and A.V. Martinet. Exercises. Third edition. 
+Oxford University Press 1986. ISBN 0 19 431350 6 
+b) Writing 
+1. Intermediate by Marie-Chrisitine Boutin, Suzanne Brinand and Francoise Grellet. Oxford 
+Supplementary Skills. Fourth Impression 1993. ISBN 019 435405 7 Pages 45-53 (note 
+taking). 
+2. Upper-Intermediate by Rob Nolasco. Oxford Supplementary Skills. Fourth Impression 
+1992. ISBN 0 19 435406 5 (particularly good for writing memos, introduction to 
+presentations, descriptive and argumentative writing). 
+3. Mecnakshi Raman & Sangeeta Technical Communication. 
+4. Murphy, Effective Business Communication, 7th edition.  
+c) Reading 
+1. Advanced.  Brian Tomlinson and Rod Ellis. Oxford Supplementary Skills. Third 
+Impression 1991. ISBN 0 19 453403 0 
+2. Reading and Study Skills by John Langan 
+3. Study Skills by Riachard Yorky 
+ 
+ 
+Course Name: Linear Algebra 
+Course Structure: Lectures: 3, Labs: 0 Credit Hours: 3 
+Prerequisites: None 
+Objectives: To provide fundamentals of solution for system of linear equations, 
+operations on system of equations, matrix properties, solutions and study of their 
+properties. 
+Course Outline: Vectors, Vector Spaces, Matrices & Determinants, Cofactor and Inverse, 
+Rank, Linear Independence, Solution of system of Linear systems, Positive Definite 
+matrix, Linear Transformations, Operations on matrices, Inner products, orthgonality and 
+least squares, Eigenvalue & Eigenvectors. Applications to Systems of Equations and to 
+Geometry, Singular Value Decomposition. 
+Reference Material: 
+1. Bernard Kolman, David Hill, Elementary Linear Algebra with Applications, 9th 
+edition,  Prentice Hall PTR, 2007. 
+2. Gilbert Strang, Strang, Brett Coonley, Andy Bulman-Fleming, Andrew Bulman
+Fleming, Strang's Linear Algebra And Its Applications, 4th edition, Brooks/Cole, 2005 
+3. Howard Anton, Chris Rorres, Elementary Linear Algebra: Applications Version, 9th 
+edition, Wiley, 2005. 
+4. David C. Lay, Linear Algebra and Its Applications, 2nd edition, Addison-Wesley, 
+2000. 
+ 
+Course Name: Web Design and Development 
+Course Structure: Lectures: 2 / Labs: 1 Credit Hours: 3 
+Prerequisites: Fundamentals of Information Technology (required) 
+Objectives: This course will extend the WWW Technologies and Web Based Applications 
+architecture, development, deployment and management concepts studied in the course of 
+Fundamentals of Information Technology. The instructor is expected to cover an in-depth 
+treatment of the web technology and applications related topics including web standards, 
+protocols, web applications architecture, web services, search engine architectures, content 
+management, web2, and semantic web, to explore some of the technologies used for 
+display, data access and processing, and to give the students practice in integrating these to 
+produce a functional web-based system. 
+Course Outline:  
+In-depth study of World Wide Web architectures, protocols and standards (HTTP, HTML, 
+xHTML, CGI, XML, WML, cHTML,  etc.), Web Technologies and Tools (such as 
+scripting tools) for web application development and deployment (web servers, application 
+servers, etc.), Web Based Applications including search engines and content management, 
+management of large scale web based information systems, Web Services, Web2, Semantic 
+Web, and Web3, principles of web site design, practical exercise in web site development. 
+Reference Material: 
+Suggested Text Books: 
+1. Nuckles, Craig, Web Applications:  Concepts and Real World Design, Wiley 2006 
+2. Programming the World Wide Web (4th Edition) (Paperback), by Robert W. Sebesta 
+(Author), Paperback: 752 pages, Publisher: Addison Wesley; 4th edition (August 17, 
+2007), ISBN-10: 0321489691  
+Reference Material: 
+1. Gosselin, Dan, et. al., The Web Warrior Guide to Web Design Technologies, Cengage 
+Learning, 2003 
+2. Zak, Diane, et. al., The Web Warrior Guide to Web Programming, Cengage Learning, 
+2003 
+3. Leasure, T.,  Bob Leasure and James Leasure, The Web Warrior Guide to Web 
+Database Technologies, Cengage Learning, 2003 
+4. Morrison, Mike and Joline Morrison, Database Driven Websites, 2/e, Cengage 
+Learning,  2002 
+5. Web Wizard series for various technologies, Addison-Wesley 
+6. Jackson, J. C., Web Technologies:  A Computer Science Perspective, Pearson (LPE), 
+2008 
+7. Web Application Architecture: Principles, Protocols and Practices by Leon Shklar and 
+Richard Rosen (Paperback - Oct 31, 2008), Paperback: 420 pages, Publisher: Wiley; 2 
+edition (October 31, 2008), ISBN-10: 047051860X  
+8. Web Engineering: The Discipline of Systematic Development of Web Applications by 
+Gerti Kappel, Birgit Prýýll, Siegfried Reich, and Werner Retschitzegger (Paperback - 
+Jul 5, 2006) 
+ 
+ 
+Semester-6 
+Course Name: Artificial Intelligence 
+Course Structure: Lectures: 3 / Labs: 1 Credit Hours: 4 
+Prerequisites: Data Structures 
+Objectives: This course focuses on the set of computational tools and techniques, which 
+mimic the human decision-making process and capability. 
+Course Outline: Introduction to Common Lisp. AI classical systems: General Problem 
+Solver, rules, simple search, means-ends analysis. ELIZA, pattern matching, rule based 
+translators, OPS-5. Knowledge Representation: Natural language, rules, productions, 
+predicate logic, semantic networks, frames, objects, scripts. Search: Depth first search, 
+breadth first search, best first search, hill climbing, min-max search, A* search. Symbolic 
+Mathematics: student, solving algebra problems, translating English equations, solving 
+algebraic equations, simplification rules, re-write rules, meta-rules, Macsyma, PRESS, 
+ATLAS. Logic Programming: Resolution, unification, horn-clause logic, Prolog, Prolog 
+programming. Sample case studies of shells and Knowledge Based Systems. A brief 
+appreciation of state of the art computational techniques like neural networks, genetic 
+algorithm, fuzzy sets. 
+Reference Material: 
+1. Artificial Intelligence by Luger, 4th edition Pearson Education.  
+2. Russell and Norvig, Artificial Intelligence: A Modern Aproach, 2nd ed, Pearson 
+Education. 
+ 
+Course Name: Design &Analysis of Algorithms 
+Course Structure: Lectures: 3 / Labs: 0 Credit Hours: 3 
+Prerequisites: Discrete Structure, Data Structures and Algorithms 
+Objectives: Detailed study of the basic notions of the design of algorithms and the 
+underlying data structures. Several measures of complexity are introduced. Emphasis on the 
+structure, complexity, and efficiency of algorithms. 
+Course Outline: Introduction; Asymptotic notations; Recursion and recurrence relations; 
+Divide-and-conquer approach; Sorting; Search trees; Heaps; Hashing; Greedy approach; 
+Dynamic programming; Graph algorithms; Shortest paths; Network flow; Disjoint Sets; 
+Polynomial and matrix calculations; String matching; NP complete problems; 
+Approximation algorithms. 
+Reference Material: 
+1. Introduction to Algorithms /2E, T. H. Cormen, C. E. Leiserson, and R. L. Rivest, MIT 
+Press, McGraw-Hill, New York, NY, 2001. 
+2. Algorithms in C++; Robert Sedgewick  
+ 
+Course Name: Theory of Automata  
+Course Structure: Lectures: 3 Labs: 0 Credit Hours: 3 
+Prerequisites: Discrete Structures 
+Objectives: The course aims to develop an appreciation of the theoretical foundations of 
+computer science through study of mathematical & abstract models of computers and the 
+theory of formal languages. Theory of formal languages and use of various abstract 
+machines as ‘recognizers’ and parsing will be studied for identifying/validating the 
+synthetic characteristics of programming languages. Some of the abstract machines shall 
+also study as ‘Transducers’. 
+Course Outline: Finite State Models: Language definitions preliminaries, Regular 
+expressions/Regular languages, Finite automata (FAs), Transition graphs (TGs), NFAs, 
+Kleene’s theorem, Transducers (automata with output), Pumping lemma and non regular 
+language Grammars and PDA: Context free grammars, Derivations, derivation trees and 
+ambiguity, Simplifying  CFLs , Normal form grammars and parsing, Decidability, 
+Chomsky’s hierarchy of grammars Turing Machines Theory: Turing machines, Post 
+machine, Variations on TM, TM encoding, Universal Turing Machine, Context sensitive 
+Grammars, Defining Computers by TMs. 
+Text Books/Reference Books: 
+1. An Introduction to Formal Languages and Automata, By Peter Linz, 4th edition, Jones 
+& Bartlett Publishers, 2006 
+2. Theory of Automata, Formal Languages and Computation, By S. P. Eugene, Kavier, 
+2005, New Age Publishers, ISBN (10): 81-224-2334-5, ISBN (13) : 978-81-224
+2334-1. 
+3. John Hopcroft and Jeffrey Ullman, Introduction to Automata Theory, Languages, and 
+Computation, 2nd edition, 2001, Addison-Wesley. 
+4. Introduction to Languages and the Theory of Computation, By John C. Martin3rd 
+edition, 2002, McGraw-Hill Professional. 
+ 
+ 
+Course Name: Fundamental of Data Mining 
+Course Structure: Lectures: 3 / Labs: 0 Credit Hours: 3 
+Prerequisites: Database Systems 
+Objectives:  
+Course Outline:  
+Data-Mining Concepts, Preparing the Data, Data Reduction, Learning From Data, 
+Statistical Methods, Decision Trees and Decision Rules, Artificial Neural Networks, 
+Ensemble Learning, Cluster Analysis, Association Rules, Web Mining and Text Mining, 
+Genetic Algorithms, Fuzzy Sets and Fuzzy Logic, Visualization Methods, Data Mining 
+Tools: Weka, CBA and Yale, etc. 
+Reference Material: 
+1. Data Mining: Concepts, Models, Methods, and Algorithms by Mehmed 
+2. Kantardzic, Wiley-IEEE Press; 2nd Edition (August 16, 2011). ISBN-10:0470890452 
+3. Data Mining: Concepts and Techniques, Third Edition (The Morgan Kaufmann  Series 
+in Data Management Systems) by Jiawei Han, Micheline Kamber and Jian Pei, Morgan 
+Kaufmann; 3rd Edition (2011). ISBN-10: 0123814790 
+4. Principles of Data Mining (Adaptive Computation and Machine Learning) by David J. 
+Hand, Heikki Mannila and Padhraic Smyth, A Bradford Book (August 1, 2001). ISBN
+10: 026208290X 
+ 
+ 
+Course Name: Distributed Database Systems 
+Course Structure: Lectures: 2 / Labs: 1 Credit Hours: 3 
+Prerequisites: Introduction to Database Systems 
+Objectives: Students will learn the usage of different design strategies for distributed 
+databases, and will study query processing techniques as well as transaction management 
+and concurrency control concepts used in such systems 
+Course Outline:  
+Introduction to Distributed Data Processing; Distributed DBMS Architecture; Distributed 
+Database Design: Issues, Fragmentation and Allocation; Integrity Constraints, Distributed 
+Query Processing; Query Decomposition and Data Localization; Query Optimization; 
+Distributed Transaction Management and Concurrency Control; Distributed DBMS 
+Reliability and Replication Techniques; Multi-database Systems.  
+Reference Material: 
+1. M.T. Ozsu, P. Valduriez (eds.): Principles of Distributed Database Systems (2nd  
+Edition), Prentice Hall, 1999 
+2. P. Bernstein and E. Newcomer, Principles of Transaction Processing. Morgan 
+Kaufmann, 1997  
+3. M. Buretta, Data Replication. Wiley, 1997   
+4. R. Elmasri and S. Navathe. Fundamentals of Database 
+Systems,Benjamin/Cummings. 
+ 
+Semester-7 
+Course Structure: Lectures: 2 / Labs: 1 
+Course Name: Mobile and Application Development 
+Credit Hours: 3 
+Prerequisites: Web Technologies 
+Objectives:  
+Course Outline:  
+What is Android? Installing and Configuring the Android SDK Manager, Creating Android 
+Application, Anatomy of an Android Application. Eclipse. Fragments, Calling Built-In 
+Applications Using Intents, Displaying Notifications. Components of a Screen, Adapting to 
+Display Orientation, Managing Changes to Screen Orientation, Utilizing the Action Bar, 
+Creating the User Interface. Listening for UI Notifications. Views, User Preferences. 
+Persisting Data. Sharing Data. Sending SMS Messages. Getting Feedback. Sending E-mail. 
+Displaying Maps, Consuming Web Services Using HTTP, Accessing Web Services. 
+Creating Services. Threading. Android games Development, Publishing Android 
+Applications. Handling Telephone Calls, Fonts 
+Reference Material: 
+1. Beginning Android 4 Application Development by Wei-Menge Lee, John Wiley & 
+Sons, 2012 
+2. Beginning Android 4 by Grant Allen, Apress, (2011), ISBN: 1430239840. 
+3. Beginning Android games by Mario Zechner, Apress, (2011), ISBN:1430230428 
+4. Pro Android 4 by Satya Komatineni and Dave MacLean, (2012), ISBN:1430239301 
+Apress 
+5. Professional Android 4 Application Development by Reto Meier, Wiley, (2012), 
+ISBN:1118237226 
+Course Name: Introduction to Sociology 
+Course Structure: Lectures: 3 / Labs: 0 
+Credit Hours: 3 
+Prerequisites:  
+Objectives: This course will introduce students to the discipline of Sociology, its 
+perspective, its basic concepts and principles, its methods of analysis and its major sub-fields. 
+Through this introduction it is expected that students will begin to think in ways that take into 
+account the social realm of thought, including the impact of social forces, social constraints, 
+and social structure on an individual's thoughts and behaviours. The goals of the course are to 
+encourage students to begin to think critically about the social world, to examine various life 
+issues with a sociological lens, to 'problematize' social issues, and to spark the sociological 
+imagination - "the ability to see the relationship between individual experiences and the 
+larger society" (C. Wright Mills, 1959). 
+Course Outline: 
+Nature, scope and subject matter of Sociology, Brief historical development of Sociology, 
+Introduction to Quranic Sociology, Society and community, Relationship with other social 
+Sciences, Social Interaction Processes The study of social life, Exploring the global village, 
+Sociology as a science, The Sociological imagination, The development of Sociology,  
+Sociology, Structure and function of social institutions, Inter-relationships among various 
+social institutions, Elements of culture, Organization of culture, cultural relativism, sub 
+cultures, ethnocentrism, Socialization and personality, Role and status, Socialization, Culture 
+and personality 
+Reference Material: 
+Recommended Texts: 
+1. Horton and Hungt, (2004), Sociology, 6th edition, McGraw Hill 
+2. Tischler, Hnry L, (2002), Introduction to Sociology, 7th edition Horcourt 
+3. Macionis, John J and Plummer, Ken, (2005), Sociology, A Global International, 3rd  
+Edition, Prentice Hall. 
+Reference Material: 
+1. Kendall, Diana, (2001), Sociology in our times, 32nd Edition, Wadsworth.  
+2. James. M. Hensline, (1997), Sociology, Needhan Heigwb, Massachusetts, USA.  
+3. George J. Brgjar, Michael P. Soroke, (1997)  
+ 
+ 
+ 
+ 
+ 
+Course Name:  Parallel and Distributed Computing 
+Course Structure: Lectures: 3 / Labs: 0 Credit Hours: 3 
+Prerequisites: Data Communications and Computer Networks 
+Objectives:  
+Course Outline: 
+Why use parallel and distributed systems? Why not use them? Speedup and Amdahl's Law, 
+Hardware architectures: multiprocessors (shared memory), networks of workstations 
+(distributed memory), clusters (latest variation). Software architectures: threads and shared 
+memory, processes and message passing, distributed shared memory (DSM), distributed 
+shared data (DSD). Possible research and project topics, Parallel Algorithms, Concurrency 
+and synchronization, Data and work partitioning, Common parallelization strategies, 
+Granularity, Load balancing, Examples: parallel search, parallel sorting, etc. Shared-Memory 
+Programming: Threads, Pthreads, Locks and semaphores, Distributed-Memory 
+Programming: Message Passing, MPI, PVM. Other Parallel Programming Systems, 
+Distributed shared memory, Aurora: Scoped behavior and abstract data types, Enterprise: 
+Process templates. Research Topics 
+Reference Material: 
+1. B. Wilkinson and M. Allen, Parallel Programming: Techniques and Applications Using 
+Networked Workstations and Parallel Computers, 1/e, Prentice Hall, 1999. 
+2. W. Stevens, Advanced Programming in the Unix Environment, Addison Wesley, 1993 
+ 
+ 
+Course Name: Compiler Construction 
+Course Structure: Lectures: 3 / Labs: 0 Credit Hours: 3 
+Prerequisites: Theory of Automata and Formal Languages 
+Objectives: At the end of the course students should understand the overall structure of a 
+compiler, and will know significant details of a number of important techniques commonly 
+used. They will be aware of the way in which language features raise challenges for 
+compiler builders. 
+Course Outline: Compiler techniques and methodology. Organization of compilers. 
+Lexical and syntax analysis. Parsing techniques. Object code generation and optimization, 
+detection and recovery from errors. Contrast between compilers and interpreters. 
+Reference Material: 
+1. Compilers: Principles, Techniques, and Tools By Alfred V. Aho, Ravi Sethi, Jeffrey D. 
+Ullman, Contributor Jeffrey D. Ullman ,Addison-Wesley Pub. Co., 2nd edition,1987 
+Original from the University of Michigan 
+2. Modern Compiler Design, By Dick Grune, Henri E. Bal, Ceriel J. H. Jacobs, Koen G. 
+Langendoen, John Wiley, 2000. 
+3. Modern Compiler Implementation in C, By Andrew W. Appel, Maia Ginsburg, 
+Contributor Maia Ginsburg,  Cambridge University Press, 2004. 
+4. Modern Compiler Design by Dick Grune, Henri E. Bal, Ceriel J. H. Jacobs, Koen G. 
+Langendoen, 2003, John Wiley & Sons. 
+Semester-8 
+Course Name: Computer Graphics 
+Course Structure: Lectures: 2 / Labs: 1 
+Credit Hours: 3 
+Prerequisites: Object Oriented Programming , Visual Programming 
+Objectives: Study of various algorithms in computer graphics and their implementation in 
+any programming language. 
+Course Outline: Graphics hardware. Fundamental algorithms. Applications of graphics. 
+Interactive graphics programming — graph plotting, windows and clipping, and 
+segmentation. Programming raster display systems, Differential Line Algorithm, panning and 
+zooming. Raster algorithms and software — Scan-Converting lines, characters and circles. 
+Scaling, Rotation, Translation, Region filling and clipping. Two and three dimensional 
+imaging geometry (Perspective projection and Orthogonal projection) and transformations. 
+Curve and surface design, rendering, shading, colour and animation. 
+Reference Material: 
+1. Computer Graphics, Principles and Practice, J. D. Foley, A. van Dam, S. K.     
+Feiner and J. F. Hughes, Addison-Wesley ISBN: 0-201-12110-7. 
+2. Computer Graphics, F.S.Hill, Maxwell MacMillan ISBN: 0-02-354860-6. 
+3.  Interactive Computer Graphics: Functional, Procedural and Device-level 
+methods; Peter Burger and Duncan. F. Gillies; Addison-Wesley, (2003) 
+Course Name: Information Security 
+Course Structure: Lectures: 3 / Labs: 0 
+Credit Hours: 3 
+Prerequisites: Data Communication and Computer Networks 
+Objectives:  
+Course Outline:  
+Basic notions of confidentiality, integrity, availability; authentication models; protection 
+models; security kernels; Encryption, Hashing and Digital 33 Signatures; audit; intrusion 
+detection and response; database security, host based and network-based security issues 
+operational security issues; physical security issues; personnel security; policy formation 
+and enforcement; access controls; information flow; legal and social issues; identification 
+and authentication in local and distributed systems; classification and trust modeling; risk 
+assessment 
+Reference Material: 
+1. Computer Security: Art and Science, Matthew Bishop 
+2. Cryptography and Network Security by William Stalling 6th Edition, 2012 
+3. Principles of Information Security 3rd E by Michael E. Whitman and Herbert J. Mattord 

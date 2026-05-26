@@ -129,6 +129,7 @@ $stmt = $conn->prepare("SELECT * FROM chat_history WHERE user_id = ? ORDER BY cr
 $stmt->bind_param("i", $_SESSION['user_id']);
 $stmt->execute();
 $chat_history = array_reverse($stmt->get_result()->fetch_all(MYSQLI_ASSOC));
+$teach_prompt = trim($_GET['teach'] ?? '');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -136,6 +137,7 @@ $chat_history = array_reverse($stmt->get_result()->fetch_all(MYSQLI_ASSOC));
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Chat Assistant - AI Learning Assistant</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -149,20 +151,31 @@ $chat_history = array_reverse($stmt->get_result()->fetch_all(MYSQLI_ASSOC));
                 <h4 class="mb-0 fw-bold">AI Chat Assistant</h4>
                 <p class="text-muted mb-0">Ask me anything about your studies</p>
             </div>
-            <div class="d-flex align-items-center gap-3">
+            <div class="topbar-action-group">
                 <button class="btn btn-outline-primary" id="chatHistoryBtn">
                     <i class="bi bi-clock-history me-2"></i>Chat History
                 </button>
                 <button class="btn btn-outline-danger" id="clearChatBtn">
                     <i class="bi bi-trash me-2"></i>Clear Chat
                 </button>
+                <?php renderTopActions($user); ?>
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="card border-0 shadow-sm">
+        <div class="chat-page">
+            <div class="chat-shell">
+                <div class="card border-0 shadow-sm chat-card">
                     <div class="chat-container">
+                        <div class="chat-hero">
+                            <div>
+                                <h5 class="fw-bold mb-1">Study Tutor</h5>
+                                <p class="text-muted mb-0">Ask, revise, solve, or get a topic explained step by step.</p>
+                            </div>
+                            <div class="chat-status">
+                                <span></span> Online
+                            </div>
+                        </div>
+
                         <div class="chat-messages" id="chatMessages">
                             <?php if (count($chat_history) > 0): ?>
                                 <?php foreach ($chat_history as $chat): ?>
@@ -196,9 +209,15 @@ $chat_history = array_reverse($stmt->get_result()->fetch_all(MYSQLI_ASSOC));
                         </div>
 
                         <div class="chat-input-container">
+                            <div class="chat-suggestions mb-3">
+                                <button type="button" class="chat-chip" data-prompt="Explain this topic step by step with simple examples.">Step-by-step</button>
+                                <button type="button" class="chat-chip" data-prompt="Give me practice questions and then check my answers.">Practice me</button>
+                                <button type="button" class="chat-chip" data-prompt="Summarize this topic into exam notes.">Exam notes</button>
+                                <button type="button" class="chat-chip" data-prompt="Teach this like I am a beginner and ask me questions after each part.">Teach mode</button>
+                            </div>
                             <form id="chatForm">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="messageInput" placeholder="Ask me anything about your studies..." required>
+                                <div class="chat-composer">
+                                    <textarea class="form-control" id="messageInput" placeholder="Ask me anything about your studies..." rows="1" required><?php echo htmlspecialchars($teach_prompt); ?></textarea>
                                     <button class="btn btn-primary px-4" type="submit" id="sendBtn">
                                         <i class="bi bi-send"></i> Send
                                     </button>
@@ -222,6 +241,11 @@ $chat_history = array_reverse($stmt->get_result()->fetch_all(MYSQLI_ASSOC));
 
         function scrollToBottom() {
             chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function autoResizeInput() {
+            messageInput.style.height = 'auto';
+            messageInput.style.height = Math.min(messageInput.scrollHeight, 140) + 'px';
         }
 
         function addMessage(content, isUser = false) {
@@ -375,6 +399,7 @@ $chat_history = array_reverse($stmt->get_result()->fetch_all(MYSQLI_ASSOC));
 
             addMessage(message, true);
             messageInput.value = '';
+            autoResizeInput();
             sendBtn.disabled = true;
             sendBtn.innerHTML = '<span class="loading-spinner"></span> Thinking...';
 
@@ -429,6 +454,23 @@ $chat_history = array_reverse($stmt->get_result()->fetch_all(MYSQLI_ASSOC));
             }
         });
 
+        document.querySelectorAll('.chat-chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                messageInput.value = chip.dataset.prompt;
+                autoResizeInput();
+                messageInput.focus();
+            });
+        });
+
+        messageInput.addEventListener('input', autoResizeInput);
+        messageInput.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                chatForm.requestSubmit();
+            }
+        });
+
+        autoResizeInput();
         scrollToBottom();
     </script>
 </body>

@@ -11,11 +11,16 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 $title = sanitize($_POST['title'] ?? '');
 $subject = sanitize($_POST['subject'] ?? '');
+$university = sanitize($_POST['university'] ?? '');
+$course = sanitize($_POST['course'] ?? '');
+$semester = sanitize($_POST['semester'] ?? '');
+$outline = sanitize($_POST['outline'] ?? '');
+$special_features = sanitize($_POST['special_features'] ?? '');
 $difficulty = sanitize($_POST['difficulty'] ?? 'medium');
 $total_questions = intval($_POST['total_questions'] ?? 10);
 
 if (empty($title) || empty($subject)) {
-    jsonResponse(false, 'All fields are required');
+    jsonResponse(false, 'Quiz title and subject are required');
 }
 
 $stmt = $conn->prepare("INSERT INTO quizzes (user_id, title, subject, difficulty, total_questions) VALUES (?, ?, ?, ?, ?)");
@@ -23,8 +28,16 @@ $stmt->bind_param("isssi", $_SESSION['user_id'], $title, $subject, $difficulty, 
 
 if ($stmt->execute()) {
     $quiz_id = $conn->insert_id;
-    
-    $questions = generateQuizQuestions($subject, $difficulty, $total_questions);
+
+    $academic_context = $university;
+    if ($course !== '') {
+        $academic_context .= ' - ' . $course;
+    }
+    if ($semester !== '') {
+        $academic_context .= ' - Semester ' . $semester;
+    }
+
+    $questions = generateQuizQuestions($subject, $difficulty, $total_questions, $outline, $academic_context, $special_features);
     
     foreach ($questions as $q) {
         $question = $q['question'];

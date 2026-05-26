@@ -35,6 +35,7 @@ foreach ($questions as $q) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Results - AI Learning Assistant</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -48,10 +49,14 @@ foreach ($questions as $q) {
                 <h4 class="mb-0 fw-bold">Quiz Results</h4>
                 <p class="text-muted mb-0"><?php echo htmlspecialchars($quiz['title']); ?></p>
             </div>
-            <div>
+            <div class="topbar-action-group">
+                <button type="button" class="btn btn-primary me-2" id="retakeQuizBtn" data-quiz-id="<?php echo $quiz['id']; ?>">
+                    <i class="bi bi-arrow-repeat me-2"></i>Retake New Quiz
+                </button>
                 <a href="quizzes.php" class="btn btn-outline-primary">
                     <i class="bi bi-arrow-left me-2"></i>Back to Quizzes
                 </a>
+                <?php renderTopActions($user ?? null); ?>
             </div>
         </div>
 
@@ -150,5 +155,36 @@ foreach ($questions as $q) {
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/theme.js"></script>
+    <script>
+        document.getElementById('retakeQuizBtn').addEventListener('click', async (event) => {
+            const button = event.currentTarget;
+            const originalHtml = button.innerHTML;
+            button.disabled = true;
+            button.innerHTML = '<span class="loading-spinner"></span> Creating...';
+
+            try {
+                const response = await fetch('../api/retake_quiz.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ quiz_id: button.dataset.quizId })
+                });
+                const data = await response.json();
+
+                if (data.success) {
+                    window.location.href = `take_quiz.php?id=${data.data.quiz_id}`;
+                } else {
+                    alert(data.message);
+                    button.disabled = false;
+                    button.innerHTML = originalHtml;
+                }
+            } catch (error) {
+                alert('Error creating retake quiz');
+                button.disabled = false;
+                button.innerHTML = originalHtml;
+            }
+        });
+    </script>
 </body>
 </html>
