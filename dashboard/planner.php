@@ -164,7 +164,7 @@ $bscs_courses = getBscsCourseOutlines();
                                         <span class="badge bg-<?php echo $plan['status'] === 'completed' ? 'success' : ($plan['status'] === 'in_progress' ? 'warning' : 'secondary'); ?>">
                                             <?php echo ucfirst(str_replace('_', ' ', $plan['status'])); ?>
                                         </span>
-                                        <div class="btn-group btn-group-sm mt-2 d-flex" role="group">
+                                        <div class="btn-group btn-group-sm mt-2 d-flex study-plan-actions" role="group">
                                             <?php if ($plan['status'] === 'pending'): ?>
                                                 <button type="button" class="btn btn-outline-warning plan-status-btn" title="Start" data-plan-id="<?php echo $plan['id']; ?>" data-status="in_progress">
                                                     <i class="bi bi-play-circle"></i> Start
@@ -181,6 +181,23 @@ $bscs_courses = getBscsCourseOutlines();
                                             <a class="btn btn-outline-info" title="Teach me" href="chat.php?teach=<?php echo urlencode('Teach me this planned study session step by step. Subject: ' . $plan['subject'] . '. Topic: ' . $plan['title'] . '. Goal: ' . $plan['goal']); ?>">
                                                 <i class="bi bi-mortarboard"></i> Teach
                                             </a>
+                                            <button type="button"
+                                                    class="btn btn-outline-secondary plan-edit-btn"
+                                                    title="Edit"
+                                                    data-plan-id="<?php echo $plan['id']; ?>"
+                                                    data-title="<?php echo htmlspecialchars($plan['title'], ENT_QUOTES); ?>"
+                                                    data-subject="<?php echo htmlspecialchars($plan['subject'], ENT_QUOTES); ?>"
+                                                    data-start-date="<?php echo htmlspecialchars($plan['start_date'], ENT_QUOTES); ?>"
+                                                    data-end-date="<?php echo htmlspecialchars($plan['end_date'], ENT_QUOTES); ?>"
+                                                    data-start-time="<?php echo htmlspecialchars(substr($plan['start_time'], 0, 5), ENT_QUOTES); ?>"
+                                                    data-end-time="<?php echo htmlspecialchars(substr($plan['end_time'], 0, 5), ENT_QUOTES); ?>"
+                                                    data-goal="<?php echo htmlspecialchars($plan['goal'] ?? '', ENT_QUOTES); ?>"
+                                                    data-status="<?php echo htmlspecialchars($plan['status'], ENT_QUOTES); ?>">
+                                                <i class="bi bi-pencil-square"></i> Edit
+                                            </button>
+                                            <button type="button" class="btn btn-outline-danger plan-delete-btn" title="Delete" data-plan-id="<?php echo $plan['id']; ?>" data-plan-title="<?php echo htmlspecialchars($plan['title'], ENT_QUOTES); ?>">
+                                                <i class="bi bi-trash"></i> Delete
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -367,6 +384,68 @@ $bscs_courses = getBscsCourseOutlines();
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                         <button type="submit" class="btn btn-primary">Add Plan</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editPlanModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Study Plan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <form id="editPlanForm">
+                    <div class="modal-body">
+                        <input type="hidden" name="plan_id" id="editPlanId">
+                        <div class="mb-3">
+                            <label class="form-label">Title</label>
+                            <input type="text" class="form-control" name="title" id="editPlanTitle" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="editPlanSubject" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Start Date</label>
+                                <input type="date" class="form-control" name="start_date" id="editPlanStartDate" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">End Date</label>
+                                <input type="date" class="form-control" name="end_date" id="editPlanEndDate" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Start Time</label>
+                                <input type="time" class="form-control" name="start_time" id="editPlanStartTime" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">End Time</label>
+                                <input type="time" class="form-control" name="end_time" id="editPlanEndTime" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Status</label>
+                            <select class="form-select" name="status" id="editPlanStatus">
+                                <option value="pending">Pending</option>
+                                <option value="in_progress">In Progress</option>
+                                <option value="completed">Completed</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Goal</label>
+                            <textarea class="form-control" name="goal" id="editPlanGoal" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-save me-2"></i>Save Changes
+                        </button>
                     </div>
                 </form>
             </div>
@@ -599,6 +678,86 @@ $bscs_courses = getBscsCourseOutlines();
             } catch (error) {
                 alert('Error adding goal');
             }
+        });
+
+        const editPlanModal = new bootstrap.Modal(document.getElementById('editPlanModal'));
+        document.querySelectorAll('.plan-edit-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                document.getElementById('editPlanId').value = button.dataset.planId;
+                document.getElementById('editPlanTitle').value = button.dataset.title || '';
+                document.getElementById('editPlanSubject').value = button.dataset.subject || '';
+                document.getElementById('editPlanStartDate').value = button.dataset.startDate || '';
+                document.getElementById('editPlanEndDate').value = button.dataset.endDate || '';
+                document.getElementById('editPlanStartTime').value = button.dataset.startTime || '';
+                document.getElementById('editPlanEndTime').value = button.dataset.endTime || '';
+                document.getElementById('editPlanGoal').value = button.dataset.goal || '';
+                document.getElementById('editPlanStatus').value = button.dataset.status || 'pending';
+                editPlanModal.show();
+            });
+        });
+
+        document.getElementById('editPlanForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            const originalHtml = submitBtn.innerHTML;
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span class="loading-spinner"></span> Saving...';
+
+            try {
+                const response = await fetch('../api/update_plan.php', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    location.reload();
+                } else {
+                    alert(data.message);
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalHtml;
+                }
+            } catch (error) {
+                alert('Error updating study plan');
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalHtml;
+            }
+        });
+
+        document.querySelectorAll('.plan-delete-btn').forEach(button => {
+            button.addEventListener('click', async () => {
+                const planTitle = button.dataset.planTitle || 'this study plan';
+                if (!confirm(`Delete "${planTitle}"?`)) {
+                    return;
+                }
+
+                button.disabled = true;
+
+                try {
+                    const response = await fetch('../api/delete_plan.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            plan_id: button.dataset.planId
+                        })
+                    });
+
+                    const data = await response.json();
+                    if (data.success) {
+                        location.reload();
+                    } else {
+                        alert(data.message);
+                        button.disabled = false;
+                    }
+                } catch (error) {
+                    alert('Error deleting study plan');
+                    button.disabled = false;
+                }
+            });
         });
 
         document.getElementById('generatePlanForm').addEventListener('submit', async (e) => {

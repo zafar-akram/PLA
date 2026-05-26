@@ -352,6 +352,16 @@ body {
     min-width: 42px;
 }
 
+.btn-group.study-plan-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.35rem;
+}
+
+.btn-group.study-plan-actions > .btn {
+    border-radius: 6px !important;
+}
+
 .progress-bar {
     background-color: var(--primary-color);
 }
