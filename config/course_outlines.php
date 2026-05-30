@@ -52,6 +52,48 @@ function getBscsCourseOutlines() {
     return array_values($courses);
 }
 
+function getCustomCourseOutlines($userId) {
+    global $conn;
+
+    $userId = intval($userId);
+    if ($userId <= 0 || !isset($conn)) {
+        return [];
+    }
+
+    $stmt = $conn->prepare("SELECT id, university, course, semester, subject, outline FROM custom_course_outlines WHERE user_id = ? ORDER BY university ASC, course ASC, semester ASC, subject ASC");
+    if (!$stmt) {
+        return [];
+    }
+
+    $stmt->bind_param("i", $userId);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $courses = [];
+
+    while ($row = $result->fetch_assoc()) {
+        $courses[] = [
+            'id' => intval($row['id']),
+            'university' => $row['university'],
+            'course' => $row['course'],
+            'semester' => intval($row['semester']),
+            'name' => $row['subject'],
+            'outline' => $row['outline'],
+            'is_custom' => true
+        ];
+    }
+
+    return $courses;
+}
+
+function getCourseOutlinesForUser($userId) {
+    $builtInCourses = array_map(function ($course) {
+        $course['is_custom'] = false;
+        return $course;
+    }, getBscsCourseOutlines());
+
+    return array_merge($builtInCourses, getCustomCourseOutlines($userId));
+}
+
 function findBscsCourseOutlineBySubject($subject) {
     $subject = strtolower(trim($subject));
     if ($subject === '') {

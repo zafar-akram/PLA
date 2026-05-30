@@ -141,6 +141,19 @@ class Database {
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
                 FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
             )",
+
+            "CREATE TABLE IF NOT EXISTS custom_course_outlines (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                user_id INT NOT NULL,
+                university VARCHAR(100) NOT NULL,
+                course VARCHAR(100) NOT NULL,
+                semester INT NOT NULL,
+                subject VARCHAR(150) NOT NULL,
+                outline TEXT NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+            )",
             
             "CREATE TABLE IF NOT EXISTS user_progress (
                 id INT AUTO_INCREMENT PRIMARY KEY,
