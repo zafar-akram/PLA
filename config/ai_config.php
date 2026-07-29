@@ -14,9 +14,9 @@ $MODEL_CONFIG = [
     'gemini-1.5-flash' => ['provider' => 'gemini', 'model' => 'gemini-1.5-flash'],
     'llama-3.3-70b-versatile' => ['provider' => 'groq', 'model' => 'llama-3.3-70b-versatile'],
     'llama-3.1-8b-instant' => ['provider' => 'groq', 'model' => 'llama-3.1-8b-instant'],
-    'mixtral-8x7b-32768' => ['provider' => 'groq', 'model' => 'mixtral-8x7b-32768'],
-    'gemma2-9b-it' => ['provider' => 'groq', 'model' => 'gemma2-9b-it']
-];
+// adding more in future 
+
+    ];
 
 $AI_APIS = [
     [
