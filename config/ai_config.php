@@ -1,10 +1,10 @@
 <?php
 
-define('GEMINI_API_KEY', 'AIzaSyAqt_qqCLcIM9SExfWEnSV7lfOhBxQ5x6g');
+define('GEMINI_API_KEY', '[Gemini API Key]');
 define('GEMINI_API_URL', 'https://generativelanguage.googleapis.com/v1/models/');
-define('GROQ_API_KEY', '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');
+define('GROQ_API_KEY', '[Groq API Key]');
 define('GROQ_API_URL', 'https://api.groq.com/openai/v1/chat/completions');
-//jhdsksd fhkjsd hfkjsd fk
+//
 define('MAX_INPUT_TOKENS', 12000);
 define('MAX_OUTPUT_TOKENS', 16000);
 
